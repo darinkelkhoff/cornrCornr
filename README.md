@@ -14,5 +14,5 @@ It's a simple menu bar app, with a Settings panel.  It does need accessibility p
 
 I had a little trouble getting the pixel values exactly right, so I threw a lot of them into Settings, though I think the defaults that it's shipping with are pretty close.
 
-It's on [github](https://github.com/darinkelkhoff/cornrCornr) if anyone wants to read it or do whatever with it (there's an MIT license included).  Or there's a binary available to [download here](TK).
+It's on [github](https://github.com/darinkelkhoff/cornrCornr) if anyone wants to read it or do whatever with it (there's an MIT license included).  Or there's a binary available to [download here](https://github.com/darinkelkhoff/cornrCornr/releases/download/0.1/CornrCornr.zip).
 
