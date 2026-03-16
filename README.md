@@ -4,7 +4,7 @@ There was a lot of talk on the Apple fan internet in early 2026, that I think st
 
 Tahoe's questionable window resizing was on my mind one night recently when I was using my Vision Pro.  As I looked down at the corner of a visionOS window and I saw its resize affordance appear, I had the idea that a little indicator like that - outside of the window - was exactly what macOS Tahoe was missing.  For those unfamiliar, it's a white quarter-circle that appears a few points away from the corner of a visionOS window.  A picture will say it so much more clearly than my words can:
 
-![visionOS window resize control](images/visionOS-resize.png)
+<img src="images/visionOS-resize.png" width="600" alt="visionOS window resize control">
 
 So I asked Claude Code to build this feature on macOS.  I think the results are pretty good!
 
