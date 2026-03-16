@@ -17,6 +17,7 @@
 		A10000080000000000000008 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000080000000000000008; };
 		A10000090000000000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000090000000000000009; };
 		A100000A000000000000000A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A000000000000000A; };
+		A100000B000000000000000B /* cornrCornr.icon in Resources */ = {isa = PBXBuildFile; fileRef = A200000B000000000000000B; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,10 @@
 		A20000080000000000000008 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		A20000090000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2000010000000000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2000011000000000000000B /* Cornr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cornr.entitlements; sourceTree = "<group>"; };
+		A2000011000000000000000B /* CornrCornr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CornrCornr.entitlements; sourceTree = "<group>"; };
 		A200000A000000000000000A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A2000012000000000000000C /* Cornr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cornr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A200000B000000000000000B /* cornrCornr.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.icon; path = cornrCornr.icon; sourceTree = "<group>"; };
+		A2000012000000000000000C /* CornrCornr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornrCornr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +51,12 @@
 		A40000010000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				A40000020000000000000002 /* Cornr */,
+				A40000020000000000000002 /* CornrCornr */,
 				A40000030000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A40000020000000000000002 /* Cornr */ = {
+		A40000020000000000000002 /* CornrCornr */ = {
 			isa = PBXGroup;
 			children = (
 				A200000A000000000000000A /* main.swift */,
@@ -68,15 +70,16 @@
 				A20000080000000000000008 /* Settings.swift */,
 				A20000090000000000000009 /* Assets.xcassets */,
 				A2000010000000000000000A /* Info.plist */,
-				A2000011000000000000000B /* Cornr.entitlements */,
+				A2000011000000000000000B /* CornrCornr.entitlements */,
+				A200000B000000000000000B /* cornrCornr.icon */,
 			);
-			path = Cornr;
+			path = CornrCornr;
 			sourceTree = "<group>";
 		};
 		A40000030000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2000012000000000000000C /* Cornr.app */,
+				A2000012000000000000000C /* CornrCornr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A50000010000000000000001 /* Cornr */ = {
+		A50000010000000000000001 /* CornrCornr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A70000020000000000000002 /* Build configuration list for PBXNativeTarget "Cornr" */;
+			buildConfigurationList = A70000020000000000000002 /* Build configuration list for PBXNativeTarget "CornrCornr" */;
 			buildPhases = (
 				A60000010000000000000001 /* Sources */,
 				A30000010000000000000001 /* Frameworks */,
@@ -96,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = Cornr;
-			productName = Cornr;
-			productReference = A2000012000000000000000C /* Cornr.app */;
+			name = CornrCornr;
+			productName = CornrCornr;
+			productReference = A2000012000000000000000C /* CornrCornr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +114,7 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = A70000010000000000000001 /* Build configuration list for PBXProject "Cornr" */;
+			buildConfigurationList = A70000010000000000000001 /* Build configuration list for PBXProject "CornrCornr" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A50000010000000000000001 /* Cornr */,
+				A50000010000000000000001 /* CornrCornr */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000090000000000000009 /* Assets.xcassets in Resources */,
+				A100000B000000000000000B /* cornrCornr.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +279,14 @@
 		A90000030000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Cornr/Cornr.entitlements;
+				ASSETCATALOG_COMPILER_APPICON_NAME = cornrCornr;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CornrCornr/CornrCornr.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Cornr/Info.plist;
+				INFOPLIST_FILE = CornrCornr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -297,13 +302,19 @@
 		A90000040000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Cornr/Cornr.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = cornrCornr;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CornrCornr/CornrCornr.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG4YT2G93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Cornr/Info.plist;
+				INFOPLIST_FILE = CornrCornr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -319,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70000010000000000000001 /* Build configuration list for PBXProject "Cornr" */ = {
+		A70000010000000000000001 /* Build configuration list for PBXProject "CornrCornr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90000010000000000000001 /* Debug */,
@@ -328,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A70000020000000000000002 /* Build configuration list for PBXNativeTarget "Cornr" */ = {
+		A70000020000000000000002 /* Build configuration list for PBXNativeTarget "CornrCornr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90000030000000000000003 /* Debug */,

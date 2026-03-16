@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Six-color background stripes (horizontal) -->
+  <rect y="0" width="1024" height="170.67" fill="#61BB46"/>
+  <rect y="170.67" width="1024" height="170.67" fill="#FDB827"/>
+  <rect y="341.33" width="1024" height="170.67" fill="#F5821F"/>
+  <rect y="512" width="1024" height="170.67" fill="#E03A3E"/>
+  <rect y="682.67" width="1024" height="170.67" fill="#963D97"/>
+  <rect y="853.33" width="1024" height="170.67" fill="#009DDC"/>
+
+  <!-- White quarter-circle arc, 50% bigger -->
+  <path d="M 890 340 A 546 546 0 0 1 340 890"
+        fill="none"
+        stroke="white"
+        stroke-width="90"
+        stroke-linecap="round"
+        opacity="0.95"/>
+</svg>

@@ -14,7 +14,7 @@ final class StatusBarController {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
 
         if let button = statusItem.button {
-            if let img = NSImage(systemSymbolName: "square.resize", accessibilityDescription: "Cornr Cornr") {
+            if let img = NSImage(named: "MenuBarIcon") {
                 img.isTemplate = true
                 button.image = img
             } else {
