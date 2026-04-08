@@ -1,16 +1,21 @@
+default:
+    @just --list
+
 root := justfile_directory()
 
+# Build the app (Debug)
 build:
     cd "{{root}}/CornrCornr" && xcodebuild -project CornrCornr.xcodeproj -scheme CornrCornr -configuration Debug build
 
-run: build
+# Kill, build, and launch the app
+run: kill build
     open ~/Library/Developer/Xcode/DerivedData/CornrCornr-*/Build/Products/Debug/CornrCornr.app
 
+# Kill the running app
 kill:
-    pkill -f CornrCornr.app || true
+    -pkill -f CornrCornr.app 2>/dev/null
 
-restart: kill run
-
+# Build and notarize for release
 release:
     #!/usr/bin/env bash
     set -euo pipefail
